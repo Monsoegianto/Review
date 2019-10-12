@@ -11,12 +11,10 @@ var styles= StyleSheet.create({
         flex:1,
         justifyContent:"center",
         alignContent: "center",
-        height: '100%',
-        borderWidth:1
+        height: '100%'
     }
-    
 
-    }
-)
+    })
+
 
 export default styles;

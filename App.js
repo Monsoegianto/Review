@@ -7,17 +7,17 @@
  */
 
 import React from 'react';
-import {View, Text} from 'react-native';
+import {View,Text} from 'react-native';
+import styles from './styles/AppStyles';
 import Main from './comps/Main';
 
 function App(){
   return (
-    <View>
+    <View style={styles.app}>
       <Main />
     </View>
   )
 }
-
 
 
 export default App;

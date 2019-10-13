@@ -1,15 +1,20 @@
 import {StyleSheet} from 'react-native';
 
-var styles = StyleSheet.create({
+var styles= StyleSheet.create({
     main:{
-        flexDirection:'column',
-        height: "100%"
+        flexDirection: "column",
+        height: "100%",
+        width: "100%"
+
     },
-    boxes:{
+    boxes: {
         flex:1,
-        justifyContent:'center',
-        alignContent:'center'
+        justifyContent:"center",
+        alignContent: "center",
+        height: '100%'
     }
-});
+
+    })
+
 
 export default styles;

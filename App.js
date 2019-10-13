@@ -12,8 +12,6 @@ import styles from './styles/AppStyles';
 import Main from './comps/Main';
 
 function App(){
-
-
   return (
     <View style={styles.app}>
       <Main />

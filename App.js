@@ -7,19 +7,17 @@
  */
 
 import React from 'react';
-import {
-  StyleSheet,
-  View,
-  Text
-} from 'react-native';
-import Bot from './comps/Bot';
+import {View,Text} from 'react-native';
+import styles from './styles/AppStyles';
+import Main from './comps/Main';
 
-function App() {
+function App(){
   return (
-    <View>
-      <Bot/>
+    <View style={styles.app}>
+      <Main />
     </View>
   )
 }
+
 
 export default App;
